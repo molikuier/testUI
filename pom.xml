@@ -13,7 +13,7 @@
         <spring.version>4.0.6.RELEASE</spring.version>
         <allure.version>1.4.23</allure.version>
         <aspectj.version>1.8.5</aspectj.version>
-        <suiteXmlFile>testng-parallel.xml</suiteXmlFile>
+        <!--<suiteXmlFile>testng-parallel.xml</suiteXmlFile>-->
     </properties>
 
     <distributionManagement>

@@ -21,7 +21,8 @@ public class TechTest {
         Configuration.browser="chrome";
         Configuration.remote = "http://127.0.0.1:5001/wd/hub";
 
-        String baseUrl = "http://172.16.6.213:8999/";
+        String baseUrl = "http://172.16.80.93:8999/";
+//        String baseUrl = "http://127.0.0.1:8999/";
 
         com.codeborne.selenide.Selenide.open(baseUrl);
 
