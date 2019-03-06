@@ -19,9 +19,10 @@ public class TechTest {
         webdriverContainer.clearBrowserCache();
 //
         Configuration.browser="chrome";
-        Configuration.remote = "http://127.0.0.1:5001/wd/hub";
+        Configuration.remote = "http://172.16.80.93:5001/wd/hub";
 
         String baseUrl = "http://172.16.80.93:8999/";
+
 
         com.codeborne.selenide.Selenide.open(baseUrl);
 
