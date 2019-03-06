@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1551852186839" stop="1551852311839" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>tech : tech3</name>
+    <title>tech : tech3</title>
+    <test-cases>
+        <test-case start="1551852186926" stop="1551852311839" status="broken">
+            <name>test</name>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="host" value="molideMacBook-Pro.local"/>
+                <label name="thread" value="2442@molideMacBook-Pro.local.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1551852186839" stop="1551852311839" status="broken">
+            <name>tech : tech3</name>
+            <title>tech : tech3</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
